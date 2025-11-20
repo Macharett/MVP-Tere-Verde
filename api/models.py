@@ -3,10 +3,7 @@ from django.db import models
 # 1. Modelo de Parque (Unidade de Conservação)
 
 class Parque(models.Model):
-    """
-    Representa uma das três Unidades de Conservação em Teresópolis.
-    """
-    
+     
     TIPO_CHOICES = (
         ('NACIONAL', 'Parque Nacional da Serra dos Órgãos'),
         ('ESTADUAL', 'Parque Estadual dos Três Picos'),
