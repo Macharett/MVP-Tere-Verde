@@ -131,3 +131,7 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticatedOrReadOnly',
     ),
 }
+
+
+ADMIN_SITE_HEADER = 'Administração Terê-Verde'
+ADMIN_SITE_TITLE = 'Terê-Verde'
